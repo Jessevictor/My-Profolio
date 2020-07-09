@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    color: #a80909;
+    text-decoration: wavy;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    border-style:hidden;
+}
+.AboutMe{
+text-align: center;
+}
+.AboutMe h2{
+    color: blue;
+}
+.hobi{
+    text-align: left;
+}
+.hobi h3{
+    color:blue
+}
+body{
+    background-image: url(/leone-venter-VieM9BdZKFo-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project h2{
+    color:blue
+}
+span{
+    color:red
+}
+}
+
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; 
+  }
+}
